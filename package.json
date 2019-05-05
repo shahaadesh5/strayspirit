@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "StraySpirit Backend to connect with MongoDB and handle API routes to manage data with mongoose and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Aadesh Shah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.15",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
